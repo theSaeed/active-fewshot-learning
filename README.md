@@ -9,6 +9,10 @@
   <a href="https://scholar.google.com/citations?user=AWNL69MAAAAJ">Owen Rambow</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://scholar.google.com/citations?user=vkX6VV4AAAAJ">Cornelia Caragea</a>
 </p>
+<p align=center>
+  <a href="https://arxiv.org/abs/2502.18782"><img src="https://img.shields.io/badge/arXiv-EC008C"/></a>
+  <a href="https://arxiv.org/pdf/2502.18782"><img src="https://img.shields.io/badge/Paper-FC6767"/></a>
+</p>
 <hr>
 
 ## Datasets
