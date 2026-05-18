@@ -10,8 +10,9 @@
   <a href="https://scholar.google.com/citations?user=vkX6VV4AAAAJ">Cornelia Caragea</a>
 </p>
 <p align=center>
-  <a href="https://arxiv.org/abs/2502.18782"><img src="https://img.shields.io/badge/arXiv-EC008C"/></a>
-  <a href="https://arxiv.org/pdf/2502.18782"><img src="https://img.shields.io/badge/Paper-FC6767"/></a>
+  <a href="https://aclanthology.org/2025.naacl-long.340"><img src="https://img.shields.io/badge/ACL%20Anthology-ff0f7b?style=for-the-badge"/></a> &thinsp;
+  <a href="https://arxiv.org/abs/2502.18782"><img src="https://img.shields.io/badge/arXiv-fd3067?logo=arxiv&style=for-the-badge"/></a> &thinsp;
+  <a href="https://aclanthology.org/2025.naacl-long.340.pdf"><img src="https://img.shields.io/badge/Paper-pdf-525252?style=for-the-badge&labelColor=fc5653"/></a>
 </p>
 
 ## Abstract
@@ -51,13 +52,26 @@ python main.py
 If you find our method helpful or relevant to your work, please kindly cite the following paper:
 
 ```bibtex
-@misc{ahmadnia2025activefewshotlearningtext,
-      title={Active Few-Shot Learning for Text Classification}, 
-      author={Saeed Ahmadnia and Arash Yousefi Jordehi and Mahsa Hosseini Khasheh Heyran and Seyed Abolghasem Mirroshandel and Owen Rambow and Cornelia Caragea},
-      year={2025},
-      eprint={2502.18782},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2502.18782}, 
+@inproceedings{ahmadnia-etal-2025-active,
+    title = "Active Few-Shot Learning for Text Classification",
+    author = "Ahmadnia, Saeed  and
+      Yousefi Jordehi, Arash  and
+      Hosseini Khasheh Heyran, Mahsa  and
+      Mirroshandel, Seyed Abolghasem  and
+      Rambow, Owen  and
+      Caragea, Cornelia",
+    editor = "Chiruzzo, Luis  and
+      Ritter, Alan  and
+      Wang, Lu",
+    booktitle = "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = apr,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.naacl-long.340/",
+    doi = "10.18653/v1/2025.naacl-long.340",
+    pages = "6677--6694",
+    ISBN = "979-8-89176-189-6",
+    abstract = "The rise of Large Language Models (LLMs) has boosted the use of Few-Shot Learning (FSL) methods in natural language processing, achieving acceptable performance even when working with limited training data. The goal of FSL is to effectively utilize a small number of annotated samples in the learning process. However, the performance of FSL suffers when unsuitable support samples are chosen. This problem arises due to the heavy reliance on a limited number of support samples, which hampers consistent performance improvement even when more support samples are added. To address this challenge, we propose an active learning-based instance selection mechanism that identifies effective support instances from the unlabeled pool and can work with different LLMs. Our experiments on five tasks show that our method frequently improves the performance of FSL. We make our implementation available on GitHub."
 }
 ```
